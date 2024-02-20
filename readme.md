@@ -4,7 +4,9 @@ sudo apt install python3-pip
 
 git clone https://github.com/cdnxyz/file
 
-cd File-To-Link
+cd file
+
+sudo pip3 install virtualenv
 
 virtualenv -p /usr/bin/python3 venv
 

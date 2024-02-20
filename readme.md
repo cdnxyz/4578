@@ -1,6 +1,6 @@
-apt install git
+sudo apt install git
 
-apt install python3-pip
+sudo apt install python3-pip
 
 git clone https://github.com/cdnxyz/file
 

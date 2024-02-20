@@ -15,7 +15,7 @@ class Var(object):
     name = str(getenv('name', 'File BOT'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001826781136'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-2070434580'))
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '45.83.122.156'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
